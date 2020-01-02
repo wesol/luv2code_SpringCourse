@@ -6,8 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="942f6a03-4034-4832-89fd-09aea6332d57" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="942f6a03-4034-4832-89fd-09aea6332d57" name="Default Changelist" comment="Countries from file: changed config file">
+      <change beforePath="$PROJECT_DIR$/src/com/mw/springdemo/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mw/springdemo/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-form.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +20,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -28,16 +35,35 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1S7ZMOyfdmQKa5tXIN3hWjSNK42" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/view" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27835053" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_roboczy\luv2code_SpringCourse\spring-mvc-demo\web\WEB-INF\view" />
+      <recent name="D:\__programowanie\Spring-course-Udemy\spring-mvc-demo\web\WEB-INF\view" />
+      <recent name="D:\_programowanie\Spirng-course\spring-mvc-demo\web\WEB-INF\view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mw.springdemo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\__programowanie\Spring-course-Udemy\spring-mvc-demo\web\WEB-INF" />
       <recent name="D:\__programowanie\Spring-course-Udemy\spring-mvc-demo\web" />
@@ -45,42 +71,12 @@
       <recent name="D:\_programowanie\Spirng-course\spring-mvc-demo\web" />
       <recent name="D:\_programowanie\Spirng-course\spring-mvc-demo" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mw.springdemo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\__programowanie\Spring-course-Udemy\spring-mvc-demo\web\WEB-INF\view" />
-      <recent name="D:\_programowanie\Spirng-course\spring-mvc-demo\web\WEB-INF\view" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.21">
-    <configuration name="ddsd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mw.springdemo.ddsd" />
-      <module name="spring-mvc-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mw.springdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="spring-mvc-demo:war exploded">
           <settings>
@@ -213,11 +209,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <item itemvalue="Application.ddsd" />
+        <serviceView>
+          <option name="contentProportion" value="0.2307047" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
       </list>
-    </recent_temporary>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -238,10 +255,152 @@
       <workItem from="1571335380898" duration="1523000" />
       <workItem from="1571762022169" duration="248000" />
       <workItem from="1571776069850" duration="173000" />
+      <workItem from="1577945972763" duration="4046000" />
     </task>
+    <task id="LOCAL-00001" summary="Added controller which make ambiguous error">
+      <created>1577788197745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577788197745</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added controller which make ambiguous error">
+      <created>1577788701111</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577788701111</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Resolved 'ambiguous error'">
+      <created>1577788753938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577788753938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added controller which make ambiguous error" />
+    <MESSAGE value="Resolved 'ambiguous error'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolved 'ambiguous error'" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577794695297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577794695297" />
+    <state x="359" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1577955134150">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="359" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577955134150" />
+    <state x="552" y="179" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1577781990667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1577781990667" />
+    <state x="293" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577946468807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="293" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577946468807" />
+    <state x="334" y="227" key="#xdebugger.evaluate" timestamp="1577956142069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="227" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1577956142069" />
+    <state x="176" y="119" key="CommitChangelistDialog2" timestamp="1577946336343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="176" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577946336343" />
+    <state width="1031" height="356" key="GridCell.Tab.0.bottom" timestamp="1577956434600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434600" />
+    <state width="1031" height="356" key="GridCell.Tab.0.center" timestamp="1577956434600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434600" />
+    <state width="1031" height="356" key="GridCell.Tab.0.left" timestamp="1577956434600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434600" />
+    <state width="1031" height="356" key="GridCell.Tab.0.right" timestamp="1577956434600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434600" />
+    <state width="1031" height="356" key="GridCell.Tab.1.bottom" timestamp="1577956434512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434512" />
+    <state width="1031" height="356" key="GridCell.Tab.1.center" timestamp="1577956434512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434512" />
+    <state width="1031" height="356" key="GridCell.Tab.1.left" timestamp="1577956434512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434512" />
+    <state width="1031" height="356" key="GridCell.Tab.1.right" timestamp="1577956434512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434512" />
+    <state width="1031" height="356" key="GridCell.Tab.2.bottom" timestamp="1577956434512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434512" />
+    <state width="1031" height="356" key="GridCell.Tab.2.center" timestamp="1577956434512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434512" />
+    <state width="1031" height="356" key="GridCell.Tab.2.left" timestamp="1577956434512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434512" />
+    <state width="1031" height="356" key="GridCell.Tab.2.right" timestamp="1577956434512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577956434512" />
+    <state width="1031" height="356" key="GridCell.Tab.3.bottom" timestamp="1577956364911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577956364911" />
+    <state width="1031" height="356" key="GridCell.Tab.3.center" timestamp="1577956364911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577956364911" />
+    <state width="1031" height="356" key="GridCell.Tab.3.left" timestamp="1577956364911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577956364911" />
+    <state width="1031" height="356" key="GridCell.Tab.3.right" timestamp="1577956364911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1031" height="356" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577956364911" />
+    <state x="440" y="95" width="1399" height="849" key="SettingsEditor" timestamp="1577783870369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="95" width="1399" height="849" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577783870369" />
+    <state x="100" y="100" width="1424" height="840" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577946254311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1424" height="840" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577946254311" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mw/springdemo/controller/StudentController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="countryOptions" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
