@@ -28,6 +28,7 @@
 	</bean>
 
 	<util:properties id="countryOptions" location="/WEB-INF/countries.properties" />
+	<util:properties id="form_data" location="/WEB-INF/form_data.properties" />
 
 </beans>
 

@@ -16,12 +16,20 @@ public class StudentController {
     @Value("#{countryOptions}")
     private HashMap<String, String> countryOptions;
 
+    @Value("#{form_data.programming_languages}")
+    private String[] programmingLanguages;
+
+    @Value("#{form_data.operating_systems}")
+    private String[] operatingSystems;
+
     @RequestMapping("/showForm")
     public String showForm(Model theModel) {
 
         Student theStudent = new Student();
         theModel.addAttribute("student", theStudent);
         theModel.addAttribute("countryOptions", countryOptions);
+        theModel.addAttribute("programmingLanguages", programmingLanguages);
+        theModel.addAttribute("operatingSystems", operatingSystems);
 
         return "student-form";
     }
