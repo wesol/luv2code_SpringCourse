@@ -1,13 +1,13 @@
 package com.mw.hibernate.demo;
 
+import com.mw.hibernate.demo.entity.Course;
 import com.mw.hibernate.demo.entity.Instructor;
 import com.mw.hibernate.demo.entity.InstructorDetail;
-import javassist.NotFoundException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class GetDemo {
+public class CreateCoursesDemo {
 
     public static void main(String[] args) {
 
@@ -15,25 +15,33 @@ public class GetDemo {
         SessionFactory factory = new Configuration().configure("hibernate.cfg.xml")
                                                     .addAnnotatedClass(Instructor.class)
                                                     .addAnnotatedClass(InstructorDetail.class)
+                                                    .addAnnotatedClass(Course.class)
                                                     .buildSessionFactory();
 
         // create session
         Session session = factory.getCurrentSession();
 
         try {
+
+            Instructor instructor;
+
             session.beginTransaction();
-            int theID = 1;
-            InstructorDetail instructorDetail = session.get(InstructorDetail.class, theID);
 
-            if (instructorDetail == null) throw new NotFoundException("Not found InstructorDetail with id = " + theID);
+            instructor = session.get(Instructor.class, 1);
 
-            System.out.println("Found instructorDetail: " + instructorDetail.toString());
+            Course guitarCourse = new Course("Guitar course");
+            Course javaCourse = new Course("Java course");
+
+            instructor.add(guitarCourse);
+            instructor.add(javaCourse);
+
+            session.save(guitarCourse);
+            session.save(javaCourse);
 
             session.getTransaction().commit();
 
             System.out.println("Done");
-        } catch (NotFoundException e) {
-            e.printStackTrace();
+
         } finally {
             session.close();
             factory.close();
