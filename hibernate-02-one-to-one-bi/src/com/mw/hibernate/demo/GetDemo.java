@@ -7,7 +7,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class DeleteDemo {
+public class GetDemo {
 
     public static void main(String[] args) {
 
@@ -22,13 +22,13 @@ public class DeleteDemo {
 
         try {
             session.beginTransaction();
-            int theID = 3;
-            Instructor instructor = session.get(Instructor.class, theID);
+            int theID = 1;
+            InstructorDetail instructorDetail = session.get(InstructorDetail.class, theID);
 
-            if (instructor == null) throw new NotFoundException("Not found Instructor with id = " + theID);
+            if (instructorDetail == null) throw new NotFoundException("Not found InstructorDetail with id = " + theID);
 
-            System.out.println("Found instructor: " + instructor.toString());
-            session.delete(instructor);
+            System.out.println("Found instructorDetail: " + instructorDetail.toString());
+
             session.getTransaction().commit();
 
             System.out.println("Done");
@@ -36,6 +36,7 @@ public class DeleteDemo {
             e.printStackTrace();
         } finally {
             session.close();
+            factory.close();
         }
     }
 }

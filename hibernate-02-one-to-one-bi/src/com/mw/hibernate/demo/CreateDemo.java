@@ -20,19 +20,20 @@ public class CreateDemo {
         Session session = factory.getCurrentSession();
 
         try {
-            Instructor instructor = new Instructor("Chad", "Darby", "darby@luvtocode.com");
             InstructorDetail instructorDetail = new InstructorDetail("http://www.luv2code.com/youtube", "Luv 2 code!!!");
+            Instructor instructor = new Instructor("Chad1", "Darby", "darby@luvtocode.com");
 
-            instructor.setInstructorDetail(instructorDetail);
+            instructorDetail.setInstructor(instructor);
 
             session.beginTransaction();
-            session.save(instructor);
+            session.save(instructorDetail);
             session.getTransaction().commit();
 
             System.out.println("Done");
 
         } finally {
             session.close();
+            factory.close();
         }
     }
 }
