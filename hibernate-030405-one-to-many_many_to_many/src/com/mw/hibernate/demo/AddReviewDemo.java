@@ -1,9 +1,6 @@
 package com.mw.hibernate.demo;
 
-import com.mw.hibernate.demo.entity.Course;
-import com.mw.hibernate.demo.entity.Instructor;
-import com.mw.hibernate.demo.entity.InstructorDetail;
-import com.mw.hibernate.demo.entity.Review;
+import com.mw.hibernate.demo.entity.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -18,6 +15,7 @@ public class AddReviewDemo {
                                                     .addAnnotatedClass(InstructorDetail.class)
                                                     .addAnnotatedClass(Course.class)
                                                     .addAnnotatedClass(Review.class)
+                                                    .addAnnotatedClass(Student.class)
                                                     .buildSessionFactory();
 
         // create session
