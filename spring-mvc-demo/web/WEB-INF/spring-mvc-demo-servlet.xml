@@ -21,8 +21,7 @@
 	<mvc:annotation-driven/>
 
 	<!-- Step 5: Define Spring MVC view resolver -->
-	<bean
-		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/view/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
@@ -30,7 +29,7 @@
 	<!--Load custom message resources-->
 	<bean id="messageSource"
 		  class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basenames" value="resources/messages" />
+		<property name="basenames" value="/resources/messages" />
 	</bean>
 
 	<util:properties id="countryOptions" location="/WEB-INF/countries.properties" />
