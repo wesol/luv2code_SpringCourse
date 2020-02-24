@@ -14,6 +14,7 @@
             <h2>CRM - Customer Relationship Manager</h2>
         </div>
     </div>
+    <br><br>
     <table>
         <tr>
             <th>Id</th>
@@ -23,10 +24,10 @@
         </tr>
         <c:forEach var="temp" items="${customers}">
             <tr>
-                <th>${temp.id}</th>
-                <th>${temp.firstName}</th>
-                <th>${temp.lastName}</th>
-                <th>${temp.email}</th>
+                <td>${temp.id}</td>
+                <td>${temp.firstName}</td>
+                <td>${temp.lastName}</td>
+                <td>${temp.email}</td>
             </tr>
         </c:forEach>
     </table>
