@@ -65,7 +65,7 @@
     <tx:annotation-driven transaction-manager="myTransactionManager"/>
 
     <!-- Add support for reading web resources: css, image, js, etc ... (location is physical directory name)-->
-    <mvc:resources location="resources" mapping="/resources/**"/>
+    <mvc:resources location="/resources/" mapping="/resources/**"/>
 
     <!--Load custom message resources-->
     <!--	<bean id="messageSource"-->

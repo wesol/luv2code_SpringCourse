@@ -1,8 +1,12 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>List Customer</title>
+    <link type="text/css"
+          rel="stylesheet"
+          href="${pageContext.request.contextPath}/resources/css/style.css"/>
 </head>
 <body>
     <div id="wrapper">
