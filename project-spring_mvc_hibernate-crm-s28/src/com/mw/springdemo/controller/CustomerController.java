@@ -1,7 +1,7 @@
 package com.mw.springdemo.controller;
 
-import com.mw.springdemo.dao.CustomerDAO;
 import com.mw.springdemo.entity.Customer;
+import com.mw.springdemo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,22 +14,13 @@ import java.util.List;
 @RequestMapping("/")
 public class CustomerController {
 
-    private CustomerDAO customerDAO;
-
-    public CustomerController() {
-        System.out.println("no parameter");
-    }
-
     @Autowired
-    public CustomerController(CustomerDAO customerDAO) {
-        this.customerDAO = customerDAO;
-        System.out.println("One parameter");
-    }
+    private CustomerService customerService;
 
     @GetMapping("/list")
     public String listCustomer(Model model) {
 
-        List<Customer> customers = customerDAO.getCustomers();
+        List<Customer> customers = customerService.getCustomers();
 
         model.addAttribute("customers", customers);
 
