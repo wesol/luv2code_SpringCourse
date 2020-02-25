@@ -14,23 +14,27 @@
             <h2>CRM - Customer Relationship Manager</h2>
         </div>
     </div>
-    <br><br>
-    <table>
-        <tr>
-            <th>Id</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>email</th>
-        </tr>
-        <c:forEach var="temp" items="${customers}">
-            <tr>
-                <td>${temp.id}</td>
-                <td>${temp.firstName}</td>
-                <td>${temp.lastName}</td>
-                <td>${temp.email}</td>
-            </tr>
-        </c:forEach>
-    </table>
+    <div id="container">
+        <div id="content">
+            <br><br>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>email</th>
+                </tr>
+                <c:forEach var="temp" items="${customers}">
+                    <tr>
+                        <td>${temp.id}</td>
+                        <td>${temp.firstName}</td>
+                        <td>${temp.lastName}</td>
+                        <td>${temp.email}</td>
+                    </tr>
+                </c:forEach>
+            </table>
 
+        </div>
+    </div>
 </body>
 </html>
