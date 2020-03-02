@@ -3,11 +3,11 @@ package com.mw.aopdemo.dao;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AccountDAO {
+public class MembershipDAO {
 
     public void addAccount() {
 
-        System.out.println(getClass() + ": DOING MY DB WORK: ADDING AN ACCOUNT");
+        System.out.println(getClass() + ": Doing something in addAccount");
 
     }
 }
