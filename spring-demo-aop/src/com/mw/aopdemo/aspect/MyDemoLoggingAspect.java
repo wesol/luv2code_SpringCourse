@@ -16,7 +16,14 @@ public class MyDemoLoggingAspect {
     @Before("anyNameMethod()")
     public void beforeAddAccountAdvice() {
 
-        System.out.println("\n =====>>>> Executing @Before advice on addAccount()");
+        System.out.println("\n =====>>>> Executing beforeAddAccountAdvice()");
+
+    }
+
+    @Before("anyNameMethod()")
+    public void anyAnalyticMethod() {
+
+        System.out.println("\n =====>>>> Executing anyAnalyticMethod()");
 
     }
 }
