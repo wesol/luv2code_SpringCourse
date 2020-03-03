@@ -19,7 +19,7 @@ public class MainDemoApp {
 
         // call the account dao getter/setter methods
         accountDAO.setName("foobar");
-        accountDAO.setName("silver");
+        accountDAO.setServiceCode("silver");
         String name = accountDAO.getName();
         String code = accountDAO.getServiceCode();
 
@@ -27,10 +27,8 @@ public class MainDemoApp {
         accountDAO.addAccount(account, true);
         accountDAO.doWork();
 
-
-
-
-        membershipDAO.addAccount();
+        membershipDAO.addSillyMember();
+        membershipDAO.goToSleep();
 
         // close the context
         context.close();
