@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyAnalyticsAspect {
 
-    @Before("forDaoPackageNoGetterSetter()")
+    @Before("com.mw.aopdemo.aspect.AspectExpressions.forDaoPackageNoGetterSetter()")
     public void anyAnalyticMethod() {
 
         System.out.println("\n =====>>>> Perfoming API analytics()");
