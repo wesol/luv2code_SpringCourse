@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-public class MyDemoLoggingAspect {
+public class MyAnalyticsAspect {
 
     @Before("forDaoPackageNoGetterSetter()")
-    public void beforeAddAccountAdvice() {
+    public void anyAnalyticMethod() {
 
-        System.out.println("\n =====>>>> Executing @Before advice on method");
+        System.out.println("\n =====>>>> Perfoming API analytics()");
     }
 }
