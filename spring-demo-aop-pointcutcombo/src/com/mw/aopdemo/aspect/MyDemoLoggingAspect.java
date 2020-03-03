@@ -10,20 +10,18 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyDemoLoggingAspect {
 
-    @Pointcut("execution(public void addAccount())")
-    public  void anyNameMethod() {}
+    @Pointcut("execution(* com.mw.aopdemo.dao.*.*(..))")
+    public  void forDaoPackage() {}
 
-    @Before("anyNameMethod()")
+    @Before("forDaoPackage()")
     public void beforeAddAccountAdvice() {
 
-        System.out.println("\n =====>>>> Executing beforeAddAccountAdvice()");
-
+        System.out.println("\n =====>>>> Executing @Before advice on method");
     }
 
-    @Before("anyNameMethod()")
+    @Before("forDaoPackage()")
     public void anyAnalyticMethod() {
 
-        System.out.println("\n =====>>>> Executing anyAnalyticMethod()");
-
+        System.out.println("\n =====>>>> Perfoming API analytics()");
     }
 }
