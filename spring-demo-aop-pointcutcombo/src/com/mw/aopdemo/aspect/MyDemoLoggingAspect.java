@@ -25,6 +25,13 @@ public class MyDemoLoggingAspect {
         System.out.println("========>>> Executing @AfterReturning on method: " + method);
         System.out.println("========>>> result is: " + result);
 
+        convertAccountNamesToUppercase(result);
+    }
+
+    private void convertAccountNamesToUppercase(List<Account> result) {
+        for (Account account : result) {
+            account.setName(account.getName().toUpperCase());
+        }
     }
 
     @Before("com.mw.aopdemo.aspect.AspectExpressions.forDaoPackageNoGetterSetter()")
@@ -52,8 +59,6 @@ public class MyDemoLoggingAspect {
                 System.out.println("Account name: " + account.getName());
                 System.out.println("Account name: " + account.getLevel());
             }
-
         }
-
     }
 }
