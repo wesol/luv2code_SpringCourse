@@ -4,9 +4,11 @@ import com.mw.aopdemo.dao.AccountDAO;
 import com.mw.aopdemo.service.TrafficFortuneService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.util.List;
+import java.util.logging.Logger;
 
 public class AroundDemoApp {
+
+    private static Logger logger = Logger.getLogger(AroundDemoApp.class.getName());
 
     public static void main(String[] args) {
 
@@ -18,12 +20,12 @@ public class AroundDemoApp {
         TrafficFortuneService trafficFortuneService = context.getBean("trafficFortuneService", TrafficFortuneService.class);
 
         String prefix = "++ AroundDemoApp: ";
-        System.out.println(prefix + "Calling getFortune");
+        logger.info(prefix + "Calling getFortune");
 
         String data = trafficFortuneService.getFortune();
-        System.out.println(prefix + "My fortune is: " + data);
+        logger.info(prefix + "My fortune is: " + data);
 
-        System.out.println(prefix + "Finished");
+        logger.info(prefix + "Finished");
 
         // close the context
         context.close();
