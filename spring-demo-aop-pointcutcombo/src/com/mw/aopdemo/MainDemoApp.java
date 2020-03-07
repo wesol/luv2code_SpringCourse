@@ -16,6 +16,8 @@ public class MainDemoApp {
         MembershipDAO membershipDAO = context.getBean("membershipDAO", MembershipDAO.class);
 
         Account account = new Account();
+        account.setName("Józek");
+        account.setLevel("gold");
 
         // call the account dao getter/setter methods
         accountDAO.setName("foobar");
