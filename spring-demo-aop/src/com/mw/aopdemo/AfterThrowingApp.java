@@ -20,7 +20,7 @@ public class AfterThrowingApp {
         try {
             accounts = accountDAO.findAccounts(true);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Main program catched exception: " + e);
         }
 
         // display the accounts
