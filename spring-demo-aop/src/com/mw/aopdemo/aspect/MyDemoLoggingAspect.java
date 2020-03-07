@@ -3,17 +3,39 @@ package com.mw.aopdemo.aspect;
 
 import com.mw.aopdemo.Account;
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
+import javax.jws.Oneway;
 import java.util.List;
 
 @Aspect
 @Component
 @Order(3)
 public class MyDemoLoggingAspect {
+
+    @Around("execution(* com.mw.aopdemo.service.TrafficFortuneService.getFortune(..))")
+    public Object aroundGetFortune(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
+
+        // print out method we are advising on (from advice)
+        String method = proceedingJoinPoint.getSignature().toShortString();
+        System.out.println("========>>> Executing @Around on method: " + method);
+
+        long start = System.currentTimeMillis();
+
+        Object result = proceedingJoinPoint.proceed();
+
+        long end = System.currentTimeMillis();
+
+        double duration = (end - start) / 1000.0d;
+
+        System.out.println("\n====>>> duration executing of " + method + " was : " + duration + "s");
+
+        return result;
+    }
 
     @After("execution(* com.mw.aopdemo.dao.AccountDAO.findAccounts(..))")
     public void afterThrowingFindAccountsAdvice(JoinPoint joinPoint) {
