@@ -19,6 +19,13 @@
 
     Welcome!
 
+    <hr>
+
+    <p>
+        <a href="${pageContext.request.contextPath}/leaders">Leaders Meeting</a>
+        <a href="${pageContext.request.contextPath}/systems">Admins Meeting</a>
+    </p>
+
     <form:form action="${pageContext.request.contextPath}/logout" method="post">
         <input type="submit" value="logout">
     </form:form>
