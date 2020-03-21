@@ -12,8 +12,8 @@
     <hr>
 
     <!-- display username and role -->
-    User: <security:authentication property="principal.username" />
-    Role(s): <security:authentication property="principal.authorities" />
+    User: <security:authentication property="principal.username"/>
+    Role(s): <security:authentication property="principal.authorities"/>
 
     <hr>
 
@@ -21,10 +21,17 @@
 
     <hr>
 
-    <p>
-        <a href="${pageContext.request.contextPath}/leaders">Leaders Meeting</a>
-        <a href="${pageContext.request.contextPath}/systems">Admins Meeting</a>
-    </p>
+    <security:authorize access="hasRole('MANAGER')">
+        <p>
+            <a href="${pageContext.request.contextPath}/leaders">Leaders Meeting</a>
+        </p>
+    </security:authorize>
+
+    <security:authorize access="hasRole('ADMIN')">
+        <p>
+            <a href="${pageContext.request.contextPath}/systems">Admins Meeting</a>
+        </p>
+    </security:authorize>
 
     <form:form action="${pageContext.request.contextPath}/logout" method="post">
         <input type="submit" value="logout">
