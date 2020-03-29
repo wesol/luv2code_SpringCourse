@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: jackson-annotations-2.10.3.jar spring-core-5.2.4.RELEASE.jar
+  spring-beans-5.2.4.RELEASE.jar spring-jcl-5.2.4.RELEASE.jar spring-web
+ mvc-5.2.4.RELEASE.jar jackson-databind-2.10.3.jar spring-context-5.2.4.
+ RELEASE.jar spring-web-5.2.4.RELEASE.jar spring-expression-5.2.4.RELEAS
+ E.jar spring-aop-5.2.4.RELEASE.jar jackson-core-2.10.3.jar javax.servle
+ t-api-4.0.1.jar
+
