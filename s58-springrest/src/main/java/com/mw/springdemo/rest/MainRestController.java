@@ -63,18 +63,6 @@ public class MainRestController {
         return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
     }
 
-    @ExceptionHandler
-    public ResponseEntity<StudentErrorResponse> handleAnotherExceptions(Exception e){
-
-        StudentErrorResponse errorResponse = new StudentErrorResponse();
-
-        errorResponse.setStatus(HttpStatus.BAD_REQUEST.value());
-        errorResponse.setMessage(e.getMessage());
-        errorResponse.setTimestamp(System.currentTimeMillis());
-
-        return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
-    }
-
 }
 
 
