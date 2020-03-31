@@ -66,7 +66,7 @@ public class CustomerServiceRestClientImpl implements CustomerServiceRestClient 
         // make REST call
         if (employeeId == 0) {
             // add employee
-            restTemplate.postForEntity(crmRestUrl, theCustomer, String.class);
+            ResponseEntity<String> stringResponseEntity = restTemplate.postForEntity(crmRestUrl, theCustomer, String.class);
 
         } else {
             // update employee
