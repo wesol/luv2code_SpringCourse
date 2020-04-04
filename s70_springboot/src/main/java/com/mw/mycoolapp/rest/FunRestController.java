@@ -11,4 +11,10 @@ public class FunRestController {
 
         return "Hello!";
     }
+
+    @GetMapping("/update")
+    public String update() {
+
+        return "App has been updated";
+    }
 }
