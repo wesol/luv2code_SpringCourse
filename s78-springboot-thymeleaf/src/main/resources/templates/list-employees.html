@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" th:href="@{/css/demo.css}"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <table border="1px">
-        <thead>
-            <tr>
-                <td>Name</td>
-                <td>Surname</td>
-                <td>Email</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr th:each="employee:${employees}">
-                <td th:text="${employee.firstName}"></td>
-                <td th:text="${employee.lastName}"></td>
-                <td th:text="${employee.email}"></td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Email</th>
+            </thead>
+
+            <tbody>
+                <tr th:each="employee:${employees}">
+                    <td th:text="${employee.firstName}"></td>
+                    <td th:text="${employee.lastName}"></td>
+                    <td th:text="${employee.email}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
 
 </body>
 
