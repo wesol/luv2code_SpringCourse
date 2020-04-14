@@ -26,7 +26,7 @@ public class EmployeeController {
     @GetMapping("/list")
     public String listEmployees(Model theModel) {
 
-        List<Employee> employees = employeeService.findAll();
+        List<Employee> employees = employeeService.findAllByOrderByLastNameAsc();
 
         // add to the spring model
         theModel.addAttribute("employees", employees);

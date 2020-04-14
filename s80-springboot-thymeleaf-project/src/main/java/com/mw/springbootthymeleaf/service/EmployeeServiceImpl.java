@@ -29,6 +29,14 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     @Transactional
+    public List<Employee> findAllByOrderByLastNameAsc() {
+
+        return employeeRepository.findAllByOrderByLastNameAsc();
+    }
+
+
+    @Override
+    @Transactional
     public Employee findById(int employeeId) {
 
         Optional<Employee> result = employeeRepository.findById(employeeId);
