@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1a16223-1b0b-4775-a375-3aa46961648a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1R1YW2Y9hKLUUFm0BccPRufJx9E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mw.aopdemo" />
+      <recent name="com.mw.springdemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_programowanie\Spring-course\spring-demo-annotations\src" />
+      <recent name="D:\_programowanie\Spirng-course\Spring-demo-two" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AroundThrowingExceptionDemoApp">
+    <configuration name="AfterReturningDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.aopdemo.AfterReturningDemoApp" />
+      <module name="spring-demo-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AfterThrowingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.aopdemo.AfterThrowingApp" />
+      <module name="spring-demo-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AroundDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.aopdemo.AroundDemoApp" />
+      <module name="spring-demo-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AroundThrowingExceptionDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.aopdemo.AroundThrowingExceptionDemoApp" />
+      <module name="spring-demo-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.aopdemo.MainDemoApp" />
+      <module name="spring-demo-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AroundThrowingExceptionDemoApp" />
+        <item itemvalue="Application.AroundDemoApp" />
+        <item itemvalue="Application.AfterReturningDemoApp" />
+        <item itemvalue="Application.AfterThrowingApp" />
+        <item itemvalue="Application.MainDemoApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1a16223-1b0b-4775-a375-3aa46961648a" name="Default Changelist" comment="" />
+      <created>1568836096205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568836096205</updated>
+      <workItem from="1568836097641" duration="160000" />
+      <workItem from="1568836438598" duration="5275000" />
+      <workItem from="1568841731378" duration="695000" />
+      <workItem from="1570726437793" duration="8000" />
+      <workItem from="1570726651947" duration="8829000" />
+      <workItem from="1570876599360" duration="2649000" />
+      <workItem from="1570886187644" duration="1406000" />
+      <workItem from="1571944048256" duration="3151000" />
+      <workItem from="1581364589471" duration="1667000" />
+      <workItem from="1583181179995" duration="5155000" />
+      <workItem from="1583272415394" duration="1228000" />
+      <workItem from="1583585409646" duration="11334000" />
+      <workItem from="1583607312774" duration="632000" />
+      <workItem from="1583617117559" duration="600000" />
+      <workItem from="1585505995476" duration="630000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create addAcount class">
+      <created>1583181822484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583181822484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create configuration class">
+      <created>1583181888744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583181888744</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create configuration class">
+      <created>1583182463410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583182463410</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create main app class">
+      <created>1583182543352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583182543352</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added aspect logging">
+      <created>1583183242291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583183242291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added another class with method addAccount">
+      <created>1583185070840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583185070840</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added another class with method addAccount">
+      <created>1583185135678</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583185135678</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added another class with method addAccount">
+      <created>1583186059067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583186059067</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added @Pointcut - and taken off handling addAccount from @Before">
+      <created>1583186797768</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583186797768</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added @Pointcut - and taken off handling addAccount from @Before">
+      <created>1583186822446</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583186822446</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Create addAcount class" />
+    <MESSAGE value="Create configuration class" />
+    <MESSAGE value="Create main app class" />
+    <MESSAGE value="Added aspect logging" />
+    <MESSAGE value="Added another class with method addAccount" />
+    <MESSAGE value="Added @Pointcut - and taken off handling addAccount from @Before" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added @Pointcut - and taken off handling addAccount from @Before" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="657" y="51" key="CommitChangelistDialog2" timestamp="1583187119038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="51" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583187119038" />
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1581371272422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="260" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581371272422" />
+    <state width="1875" height="411" key="GridCell.Tab.0.bottom" timestamp="1583603195107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="411" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583603195107" />
+    <state width="1875" height="411" key="GridCell.Tab.0.center" timestamp="1583603195107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="411" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583603195107" />
+    <state width="1875" height="411" key="GridCell.Tab.0.left" timestamp="1583603195107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="411" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583603195107" />
+    <state width="1875" height="411" key="GridCell.Tab.0.right" timestamp="1583603195107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="411" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583603195107" />
+    <state width="1875" height="342" key="GridCell.Tab.1.bottom" timestamp="1583600171674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="342" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583600171674" />
+    <state width="1875" height="342" key="GridCell.Tab.1.center" timestamp="1583600171674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="342" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583600171674" />
+    <state width="1875" height="342" key="GridCell.Tab.1.left" timestamp="1583600171674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="342" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583600171674" />
+    <state width="1875" height="342" key="GridCell.Tab.1.right" timestamp="1583600171674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="342" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583600171674" />
+    <state x="626" y="241" key="RollbackChangesDialog" timestamp="1581367391183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="241" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581367391183" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1583185003876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583185003876" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1583183248122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583183248122" />
+    <state x="657" y="252" width="606" height="536" key="find.popup" timestamp="1583603240423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="252" width="606" height="536" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583603240423" />
+    <state x="666" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1583586646803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="147" key="refactoring.ChangeSignatureDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583586646803" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583602622940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583602622940" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mw/aopdemo/AroundDemoApp.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mw/aopdemo/service/TrafficFortuneService.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

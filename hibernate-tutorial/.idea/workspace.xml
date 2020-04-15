@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38b861df-8fd3-4c32-8ba4-215abf299a9c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hbstudent@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hbstudent@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hbstudent@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hb_student_tracker: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XGca4Qgm12T6vRGay2pKhA2UC9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.34712642" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mw.hibernate.demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mw.hibernate.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\__programowanie\Spring-course-Udemy\hibernate-tutorial\src" />
+      <recent name="D:\__programowanie\Spring-course-Udemy\hibernate-tutorial\lib" />
+      <recent name="D:\__programowanie\Spring-course-Udemy\hibernate-tutorial\sqls" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Check">
+    <configuration name="Check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Check" />
+      <module name="hibernate-tutorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.hibernate.demo.DeleteStudentDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.hibernate.demo.QueryStudentDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.hibernate.demo.ReadStudentDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mw.hibernate.demo.UpdateStudentDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mw.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Check" />
+        <item itemvalue="Application.DeleteStudentDemo" />
+        <item itemvalue="Application.UpdateStudentDemo" />
+        <item itemvalue="Application.QueryStudentDemo" />
+        <item itemvalue="Application.ReadStudentDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:hbstudent@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:hbstudent@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@255c1ee" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38b861df-8fd3-4c32-8ba4-215abf299a9c" name="Default Changelist" comment="" />
+      <created>1580675931156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580675931156</updated>
+      <workItem from="1580675932839" duration="3885000" />
+      <workItem from="1580753522658" duration="2002000" />
+      <workItem from="1580755555751" duration="17873000" />
+      <workItem from="1583277303345" duration="507000" />
+      <workItem from="1585167771745" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#SQL_Dialects" timestamp="1580676732963">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="182" key="#SQL_Dialects/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580676732963" />
+    <state x="475" y="276" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580755592807">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="475" y="276" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580755592807" />
+    <state x="-1155" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1581017009978">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1155" y="208" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581017009978" />
+    <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580755417008" />
+    <state x="779" y="215" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1580679539858">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="779" y="215" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580679539858" />
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580753657613">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580753657613" />
+    <state x="752" y="409" width="500" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580756615274">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="752" y="409" width="500" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580756615274" />
+    <state x="679" y="172" key="#mysql-connector-java-8.0.19.jar" timestamp="1580679302132">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="679" y="172" key="#mysql-connector-java-8.0.19.jar/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580679302132" />
+    <state x="861" y="320" key="FileChooserDialogImpl" timestamp="1583277401412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="861" y="320" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583277401412" />
+    <state x="861" y="323" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026045450" />
+    <state width="1857" height="284" key="GridCell.Tab.0.bottom" timestamp="1581026048175">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1857" height="312" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581021678769" />
+    <state width="1857" height="284" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026048175" />
+    <state width="1857" height="284" key="GridCell.Tab.0.center" timestamp="1581026048174">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1857" height="312" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581021678769" />
+    <state width="1857" height="284" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026048174" />
+    <state width="1857" height="284" key="GridCell.Tab.0.left" timestamp="1581026048174">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1857" height="312" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581021678768" />
+    <state width="1857" height="284" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026048174" />
+    <state width="1857" height="284" key="GridCell.Tab.0.right" timestamp="1581026048174">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1857" height="312" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581021678769" />
+    <state width="1857" height="284" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026048174" />
+    <state width="1857" height="284" key="GridCell.Tab.1.bottom" timestamp="1581026048175">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1857" height="284" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581021099842" />
+    <state width="1857" height="284" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026048175" />
+    <state width="1857" height="284" key="GridCell.Tab.1.center" timestamp="1581026048175">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1857" height="284" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581021099842" />
+    <state width="1857" height="284" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026048175" />
+    <state width="1857" height="284" key="GridCell.Tab.1.left" timestamp="1581026048175">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1857" height="284" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581021099841" />
+    <state width="1857" height="284" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026048175" />
+    <state width="1857" height="284" key="GridCell.Tab.1.right" timestamp="1581026048175">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1857" height="284" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581021099842" />
+    <state width="1857" height="284" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581026048175" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1580676873525">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580676873525" />
+    <state x="670" y="235" key="RollbackChangesDialog" timestamp="1580757829833">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="670" y="235" key="RollbackChangesDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580757829833" />
+    <state x="184" y="121" width="1389" height="738" key="SettingsEditor" timestamp="1580763497391">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="184" y="121" width="1389" height="738" key="SettingsEditor/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580763497391" />
+    <state x="-1239" y="255" width="570" height="524" key="StructurePopup" timestamp="1581015246237">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1239" y="255" width="570" height="524" key="StructurePopup/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1581015246237" />
+    <state x="681" y="255" width="540" height="524" key="StructurePopup/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1581015156127" />
+    <state x="818" y="270" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1580676743573">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="818" y="270" key="com.intellij.database.view.ui.DbObjectDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580676743573" />
+    <state x="616" y="193" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580763012772">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="193" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580763012772" />
+    <state x="690" y="279" key="extract.method.dialog" timestamp="1580763048110">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="279" key="extract.method.dialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1580763048110" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mw/hibernate/demo/QueryStudentDemo.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((SessionFactoryImpl)factory).isClosed" custom="org.hibernate.internal.SessionFactoryImpl" />
+        <watch expression="((SessionImpl)((TransactionProtectionWrapper)this.h).realSession).closed" custom="org.hibernate.internal.SessionImpl,java.lang.reflect.Proxy,org.hibernate.context.internal.ThreadLocalSessionContext.TransactionProtectionWrapper" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

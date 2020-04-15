@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact name="s58-springrest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/s58_springrest_jar</output-path>
+    <root id="root">
+      <element id="archive" name="s58-springrest.jar">
+        <element id="module-output" name="s58-springrest" />
+      </element>
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.3" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.3" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.4.RELEASE" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.3" />
+      <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+    </root>
+  </artifact>
+</component>
