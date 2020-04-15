@@ -62,7 +62,7 @@ public class EmployeeController {
     @PostMapping("/save")
     public String showFormForAdd(@ModelAttribute("employee") Employee employee) {
 
-        employeeService.add(employee);
+        employeeService.update(employee);
 
         return "redirect:/employees/list";
     }
